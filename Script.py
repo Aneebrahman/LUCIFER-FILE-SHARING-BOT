@@ -11,17 +11,17 @@ class script(object):
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
 ✯ Cʀᴇᴀᴛᴏʀ: <a href='tg://settings'>Tʜɪs ᴘᴇʀsᴏɴ</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Dᴇᴠᴏʟᴏᴘᴇʀ: <a href='https://t.me/AFxSU'>𝐂𝐫𝐚𝐳𝐲 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫</a>
+✯ Dᴇᴠᴏʟᴏᴘᴇʀ: <a href='https://t.me/psycho_009'>Aᴋ Dᴇᴠᴇʟᴏᴩᴇʀ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
-✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/quickfastt'>Qᴜɪᴄᴋ Fᴀsᴛ</a>
+✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/Ak_Links1'>Aɴyᴡᴇʀᴇ</a>
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.0.3 [ Sᴛᴀʙʟᴇ ]</b>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 <b>- 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙽 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
 - 𝚂𝙾𝚄𝚁𝙲𝙴 - 𝙲𝙻𝙸𝙲𝙺 𝚁𝙴𝙿𝙾 𝙱𝚄𝚃𝚃𝙾𝙽</b>
 <b>DEVS:</b>
-- <a href=https://t.me/czdbotz>𝙲𝚉𝙳 𝙱𝙾𝚃𝚉</a>"""
+- <a href=https://t.me/Ak_Links1>Aᴋ Bᴏᴛꜱ</a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -97,7 +97,7 @@ these are the extra features of Elsa
 ⏭️ /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
 
 <b>𝚆𝙾𝚁𝙺𝚂 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>
-@at3movies"""
+@Ak_moviesgroup"""
 
     VIDEO_TXT ="""𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
 • 𝘜𝘴𝘢𝘨𝘦
@@ -295,8 +295,8 @@ Name - {}
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/at3movies> ᴍᴏᴠɪᴇ ʜᴜʙ </a>
-▫️<a href=https://t.me/Colours_Movies> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
+▫️<a href=https://t.me/Ak_moviesgroup> Aᴋ Mᴏᴠɪᴇꜱ</a>
+▫️<a href=https://t.me/movies_channel001> ᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ​ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
 
     RESTART_TXT = """
@@ -304,7 +304,7 @@ Name - {}
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
-©𝙲𝚉𝙳 𝙱𝙾𝚃𝚉</b>
+©Aᴋ Bᴏᴛꜱ</b>
 """
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
@@ -321,7 +321,7 @@ Name - {}
 𝗜𝗗 <b>: {}</b>
 𝗡𝗮𝗺𝗲 <b>: {}</b>
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>
-©𝙲𝚉𝙳 𝙱𝙾𝚃𝚉"""
+©Aᴋ Mᴏᴠɪᴇꜱ"""
 
     I_CUDNT = """𝑯𝑬𝑳𝑳𝑶 {} 𝑰 𝑪𝑶𝑼𝑳𝑫𝑵'𝑻 𝑭𝑰𝑵𝑫 𝑨𝑵𝒀 𝑴𝑶𝑽𝑰𝑬 𝑰𝑵 𝑻𝑯𝑨𝑻 𝑵𝑨𝑴𝑬 ."""
 
