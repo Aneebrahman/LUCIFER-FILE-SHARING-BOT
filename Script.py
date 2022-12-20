@@ -296,7 +296,7 @@ Name - {}
 
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
 ▫️<a href=https://t.me/Ak_moviesgroup> Aᴋ Mᴏᴠɪᴇꜱ</a>
-▫️<a href=https://t.me/movies_channel001> ᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ​ </a>
+▫️<a href=https://t.me/movies_channel001> Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ​ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
 
     RESTART_TXT = """
