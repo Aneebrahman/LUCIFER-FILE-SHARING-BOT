@@ -45,15 +45,15 @@ async def start(client, message):
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/aboutexinos')
+            InlineKeyboardButton('Mᴏᴠɪᴇ Gʀᴏᴜᴩ', url='https://t.me/Ak_moviesgroup')
         ], [
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
          ],[
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/bots_supported')
+            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ', url='https://t.me/movies_channel001')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEG3GpjnZGMxfLrOF6BUUSxygU9tU0YzwACxwkAAhxu6VRvyqQ4Rs9jLCwE") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEG4mJjoA1ylosRblUY1GtYjv7KmzQm9AAC-AMAAp9EiVed3ajGmwsl5iwE") 
         await asyncio.sleep(1)
         await m.delete()        
         await message.reply_photo(
@@ -96,12 +96,12 @@ async def start(client, message):
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/aboutexinos')
+            InlineKeyboardButton('Mᴏᴠɪᴇꜱ Gʀᴏᴜᴩ', url='https://t.me/Ak_moviesgroup')
         ], [
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
          ],[
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/bots_supported')
+            InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ', url='https://t.me/movies_channel001')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
