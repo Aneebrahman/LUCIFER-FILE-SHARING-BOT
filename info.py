@@ -54,7 +54,7 @@ SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b66f3a65ce68e11e621
 
 # Welcome area
 MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/f75dc5a5f440e2ffe43e7.jpg")
-MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/ede38b7090806dbbbde4c.mp4")
+MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/9856bd0e4f1352eeeed99.mp4")
 
 
 
@@ -87,10 +87,10 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/czdbotz_support")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/czdbotz")
+S_GROUP = environ.get('S_GROUP',"https://t.me/Ak_Links1")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/movies_channel001")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+BVP4yf8HHEFmNmJl")
-MSG_ALRT = environ.get('MSG_ALRT', '𝑇ℎ𝑎𝑛𝑘𝑠 𝑇𝑜 𝐶𝑟𝑎𝑧𝑦 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟 💖')
+MSG_ALRT = environ.get('MSG_ALRT', '𝑻𝒉𝒂𝒏𝒌𝒔 𝒇𝒐𝒓 𝑨𝒌 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓😍')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'czdbotz_support')
