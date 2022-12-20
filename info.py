@@ -54,7 +54,7 @@ SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b66f3a65ce68e11e621
 
 # Welcome area
 MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/f75dc5a5f440e2ffe43e7.jpg")
-MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/9856bd0e4f1352eeeed99.mp4")
+MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/6347d3141f9791cc4f8ec.mp4")
 
 
 
