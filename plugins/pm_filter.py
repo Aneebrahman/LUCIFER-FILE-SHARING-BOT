@@ -601,17 +601,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(MSG_ALRT)
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('🔹𝘔𝘈𝘕𝘜𝘈𝘓🔹', callback_data='manuelfilter'),
-            InlineKeyboardButton('🔹𝘈𝘜𝘛𝘖🔹', callback_data='autofilter'),
-            InlineKeyboardButton('🔹𝘊𝘖𝘕𝘕𝘌𝘊𝘛🔹', callback_data='coct')
+            InlineKeyboardButton('Mᴀɴᴜᴀʟ', callback_data='manuelfilter'),
+            InlineKeyboardButton('Aᴜᴛᴏ', callback_data='autofilter'),
+            InlineKeyboardButton('Cᴏɴɴᴇᴄᴛ', callback_data='coct')
         ], [
-            InlineKeyboardButton('🔹𝘌𝘟𝘛𝘙𝘈🔹', callback_data='extra'),
-            InlineKeyboardButton('🔹𝘚𝘖𝘕𝘎🔹', callback_data='song'),
-            InlineKeyboardButton('🔹𝘛𝘛𝘚🔹', callback_data='tts')
+            InlineKeyboardButton('Exᴛʀᴀ', callback_data='extra'),
+            InlineKeyboardButton('Sᴏɴɢ', callback_data='song'),
+            InlineKeyboardButton('Tᴛꜱ', callback_data='tts')
         ], [
-            InlineKeyboardButton('🔹𝘝𝘐𝘋𝘌𝘖🔹', callback_data='video'),
-            InlineKeyboardButton('🔹𝘛𝘎𝘙𝘈𝘗𝘏🔹', callback_data='tele'),
-            InlineKeyboardButton('🔹𝘜𝘙𝘓 𝘚𝘏𝘖𝘙𝘛🔹', callback_data='urlshort')    
+            InlineKeyboardButton('Vɪᴅᴇᴏ', callback_data='video'),
+            InlineKeyboardButton('T-Gʀᴀᴩʜ', callback_data='tele'),
+            InlineKeyboardButton('Uʀʟ-Sʜᴏʀᴛ', callback_data='urlshort')    
         ], [
             InlineKeyboardButton('<<𝐁𝐀𝐂𝐊', callback_data='start'), 
             InlineKeyboardButton('𝐍𝐄𝐗𝐓>>', callback_data='czdbots') 
@@ -634,17 +634,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "czdbots":
         buttons = [[
-             InlineKeyboardButton('🔹𝘈𝘜𝘋𝘉𝘖𝘖𝘒🔹', callback_data='abook'),
-             InlineKeyboardButton('🔹𝘊𝘖𝘝𝘐𝘋🔹', callback_data='corona'),
-             InlineKeyboardButton('🔹𝘎𝘈𝘔𝘌𝘚🔹', callback_data='fun')
+             InlineKeyboardButton('Aᴜᴅ-Bᴏᴏᴋ', callback_data='abook'),
+             InlineKeyboardButton('Cᴏᴠɪᴅ', callback_data='corona'),
+             InlineKeyboardButton('Gᴀᴍᴇꜱ', callback_data='fun')
          ], [
-             InlineKeyboardButton('🔹𝘗𝘐𝘕𝘎🔹', callback_data='pings'),
-             InlineKeyboardButton('🔹𝘑𝘚𝘖𝘕𝘌🔹', callback_data='json'),
-             InlineKeyboardButton('🔹𝘚𝘛𝘐𝘊𝘒𝘌𝘙🔹', callback_data='sticker')
+             InlineKeyboardButton('Pɪɴɢ', callback_data='pings'),
+             InlineKeyboardButton('Jꜱᴏɴᴇ', callback_data='json'),
+             InlineKeyboardButton('Sᴛɪᴄᴋᴇʀ', callback_data='sticker')
          ], [
-             InlineKeyboardButton('🔹𝘞𝘏𝘖 𝘐𝘚🔹', callback_data='whois'),
-             InlineKeyboardButton('🔹𝘜𝘙𝘓 𝘚𝘏𝘖𝘙𝘛🔹', callback_data='urlshort'),
-             InlineKeyboardButton('🔹𝘊𝘈𝘙𝘉𝘖𝘕🔹', callback_data='carb')  
+             InlineKeyboardButton('Wʜᴏ-Iꜱ', callback_data='whois'),
+             InlineKeyboardButton('Uʀʟ-Sʜᴏʀᴛ', callback_data='urlshort'),
+             InlineKeyboardButton('Cᴀʀʙᴏɴ', callback_data='carb')  
         ], [
             InlineKeyboardButton('<<𝐁𝐀𝐂𝐊', callback_data='help'), 
             InlineKeyboardButton('𝐍𝐄𝐗𝐓>>', callback_data='czdbotss')   
@@ -667,9 +667,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "czdbotss":
         buttons = [[
-             InlineKeyboardButton('🔹𝘍𝘖𝘕𝘛🔹', callback_data='font'),
-             InlineKeyboardButton('🔹𝘎𝘛𝘙𝘈𝘕𝘚🔹', callback_data='gtrans'),
-             InlineKeyboardButton('🔹𝘊𝘈𝘙𝘉𝘖𝘕🔹', callback_data='carb'),
+             InlineKeyboardButton('Fᴏɴᴛ', callback_data='font'),
+             InlineKeyboardButton('G-Tʀᴀɴᴄᴇ', callback_data='gtrans'),
+             InlineKeyboardButton('Cᴀʀʙᴏɴ', callback_data='carb'),
         ],  [
              InlineKeyboardButton('<<𝐁𝐀𝐂𝐊', callback_data='czdbots'),
              InlineKeyboardButton('𝐃𝐄𝐏𝐋𝐎𝐘', callback_data='deploy'),
