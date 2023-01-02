@@ -15,7 +15,7 @@ class script(object):
 ➪ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ➪ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
 ➪ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/Ak_Links1'>Aɴyᴡᴇʀᴇ</a>
-➪ Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ: <a href='https://t.me/Ak_Links1'>Aᴋ Bᴏᴛᴢ</b>"""
+➪ Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ: <a href='https://t.me/Ak_Links1'>Aᴋ Bᴏᴛᴢ</a></b>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 <b>- 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙽 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
@@ -33,10 +33,10 @@ class script(object):
 𝟹. 𝙰𝙻𝙴𝚁𝚃 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝙷𝙰𝚅𝙴 𝙰 𝙻𝙸𝙼𝙸𝚃 𝙾𝙵 𝟼𝟺 𝙲𝙷𝙰𝚁𝙰𝙲𝚃𝙴𝚁𝚂.</b>
 
 <b>Commands and Usage:</b>
-• /filter - <code>add a filter in chat</code>
-• /filters - <code>list all the filters of a chat</code>
-• /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+➪ /filter - <code>add a filter in chat</code>
+➪ /filters - <code>list all the filters of a chat</code>
+➪ /del - <code>delete a specific filter in chat</code>
+➪ /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
