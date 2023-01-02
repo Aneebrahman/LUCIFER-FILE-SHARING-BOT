@@ -452,7 +452,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return
             elif settings['botpm']:
                 await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
-                await query.answer('𝘾𝙝𝙚𝙘𝙠 𝙋𝙈, 𝙄 𝙝𝙖𝙫𝙚 𝙨𝙚𝙣𝙩 𝙛𝙞𝙡𝙚𝙨 𝙞𝙣 𝙥𝙢\n@ᴄᴢᴅ ʙᴏᴛᴢ​', show_alert=True)
+                await query.answer('𝘾𝙝𝙚𝙘𝙠 𝙋𝙈, 𝙄 𝙝𝙖𝙫𝙚 𝙨𝙚𝙣𝙩 𝙛𝙞𝙡𝙚𝙨 𝙞𝙣 𝙥𝙢\n Aᴋ Bᴏᴛᴢ​', show_alert=True)
                 return
             else:
                 file_send=await client.send_cached_media(
@@ -1165,7 +1165,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"🎪 ᴛɪᴛʟᴇ : {search}\n\n┏ 🤴 ᴀsᴋᴇᴅʙʏ : {message.from_user.mention}\n┣⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/{temp.U_NAME}'>Me</a>\n┗🎬Iꜰ Yᴏᴜ Wᴀɴᴛ Mᴏᴠɪᴇ Fɪʟᴇ. Pʟꜱ Jᴏɪɴ Oᴜʀ Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ : <a href='https://t.me/Ak_Links1'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n\n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}"
+        cap = f"𝙃𝙚𝙧𝙚 𝙞𝙨 𝙬𝙝𝙖𝙩 𝙞𝙨 𝙛𝙤𝙪𝙣𝙙 𝙮𝙤𝙪𝙧 𝗠𝗼𝗩𝗶𝗲 🎬 : {search}\n\n👤𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙙 𝘽𝙮 : {message.from_user.mention}\n⚡𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 : <a href='https://t.me/{temp.U_NAME}'>𝐃𝐐 𝟐.𝟎</a>\n\n★𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 © {message.chat.title}"
     if imdb and imdb.get('poster'):
         try:
             pic_fi=await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
