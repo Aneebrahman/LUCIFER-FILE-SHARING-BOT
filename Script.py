@@ -288,7 +288,18 @@ Name - {}
 """
 
     IMDB_TEMPLATE_TXT = """
-<b>⍞ 𝗧𝗶𝘁𝗹𝗲</b> : <b><i><a href={url}>{title}</a></i></b>\n\n<b>⌗ 𝗚𝗲𝗻𝗿𝗲𝘀</b> : <b><i>{genres}</i></b>\n<b>★ 𝗥𝗮𝘁𝗶𝗻𝗴</b> : <b><i><a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)</i></b>\n<b>〄 𝗥𝗲𝗹𝗲𝗮𝘀𝗲𝗱</b> : <b><i>{release_date}</i></b>\n<b>⌬ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀</b> : <b><i>{languages}</i></b>\n<b>⛤ 𝗖𝗼𝘂𝗻𝘁𝗿𝗶𝗲𝘀</b> : <b><i>{countries}</i></b>\n<b>⎙ 𝗦𝘁𝗼𝗿𝘆 𝗟𝗶𝗻𝗲</b> : <code>{plot}</code>\n\n\n<b>★𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗕𝘆</b> : <b><i>©{message.chat.title}</i></b>"""
+<b>⍞ 𝗧𝗶𝘁𝗹𝗲 : <a href={url}>{title}</a>
+〄 𝗥𝗲𝗹𝗲𝗮𝘀𝗲𝗱 : {runtime} min | <a href={url}/releaseinfo>{year}</a>
+⌗ 𝗚𝗲𝗻𝗿𝗲𝘀 : <i>{genres}</i>
+★ 𝗥𝗮𝘁𝗶𝗻𝗴 : <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+〄𝗖𝗼𝘂𝗻𝘁𝗿𝗶𝗲𝘀 : <i>{countries}</i>
+⌬ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀 : <i>{languages}</i>
+⎙ 𝗗𝗶𝗿𝗲𝗰𝘁𝗼𝗿 : <i>{director}</i> 
+⛤𝗪𝗿𝗶𝘁𝗲𝗿𝘀 : <i>{writer}</i>
+★𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗕𝘆 : <i>{message.chat.title}</i> </b>"""
+
+    ALL_FILTERS = """
+<b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
 
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
 
