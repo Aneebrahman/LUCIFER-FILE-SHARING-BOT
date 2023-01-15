@@ -18,8 +18,7 @@ class script(object):
 ➪ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ➪ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
 ➪ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/Ak_Links1'>Aɴyᴡᴇʀᴇ</a>
-➪ Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ: <a href='https://t.me/Ak_Links1'>Aᴋ Bᴏᴛᴢ</a>
-</b>"""
+➪ Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ: <a href='https://t.me/Ak_Links1'>Aᴋ Bᴏᴛᴢ</a></b>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 <b>- 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙽 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
