@@ -18,7 +18,8 @@ class script(object):
 ➪ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ➪ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
 ➪ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/Ak_Links1'>Aɴyᴡᴇʀᴇ</a>
-➪ Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ: <a href='https://t.me/Ak_Links1'>Aᴋ Bᴏᴛᴢ</a></b>"""
+➪ Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ: <a href='https://t.me/Ak_Links1'>Aᴋ Bᴏᴛᴢ</a>
+</b>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 <b>- 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙽 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
@@ -240,7 +241,8 @@ This module only works for my admins
 👤 Tᴏᴛᴀʟ Uꜱᴇʀꜱ: <code>{}</code>
 ♻️ Tᴏᴛᴀʟ Gʀᴏᴜᴩꜱ: <code>{}</code>
 🗃️ Uꜱᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
-🆓 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱</b>"""
+🆓 Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
+©Mᴀɪɴᴛᴀɪɴᴇᴅ ʙy: <a href=https://t.me/psycho_009> 𝐀𝐤 𝐓𝐠 [O𝐅𝐅𝐥𝐢𝐧𝐞 ]</a></b>"""
 
     CARB_TXT = """<b>Help</b> : 𝗖𝗔𝗥𝗕𝗢𝗡
 𝙲𝙰𝚁𝙱𝙾𝙽 𝙸𝚂 𝙰 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝙾 𝙼𝙰𝙺𝙴 𝚃𝙷𝙴 𝙸𝙼𝙰𝙶𝙴 𝙰𝚂 𝚂𝙷𝙾𝚆𝙽 𝙸𝙽 𝚃𝙷𝙴 𝚃𝙾𝙿 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁𝙴 𝚃𝙴𝚇𝚃𝚂.
