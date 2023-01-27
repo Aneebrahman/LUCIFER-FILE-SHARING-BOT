@@ -1,46 +1,50 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG
+from logging import getLogger
+from pyrogram import Client, filters, enums
+from pyrogram.types import ChatJoinRequest
+from database.join_reqs import JoinReqs
+from info import ADMINS, REQ_CHANNEL
 
-import motor.motor_asyncio
-from info import REQ_CHANNEL
 
-class JoinReqs:
+db = JoinReqs
+logger = getLogger(__name__)
 
-    def __init__(self):
-        from info import JOIN_REQS_DB
-        if JOIN_REQS_DB:
-            self.client = motor.motor_asyncio.AsyncIOMotorClient(JOIN_REQS_DB)
-            self.db = self.client["JoinReqs"]
-            self.col = self.db[str(REQ_CHANNEL)]
-        else:
-            self.client = None
-            self.db = None
-            self.col = None
+@Client.on_chat_join_request(filters.chat(REQ_CHANNEL if REQ_CHANNEL else "self"))
+async def join_reqs(client, join_req: ChatJoinRequest):
 
-    def isActive(self):
-        if self.client is not None:
-            return True
-        else:
-            return False
+    if db().isActive():
+        user_id = join_req.from_user.id
+        first_name = join_req.from_user.first_name
+        username = join_req.from_user.username
+        date = join_req.date
 
-    async def add_user(self, user_id, first_name, username, date):
-        try:
-            await self.col.insert_one({"_id": int(user_id),"user_id": int(user_id), "first_name": first_name, "username": username, "date": date})
-        except:
-            pass
+        await db().add_user(
+            user_id=user_id,
+            first_name=first_name,
+            username=username,
+            date=date
+        )
 
-    async def get_user(self, user_id):
-        return await self.col.find_one({"user_id": int(user_id)})
 
-    async def get_all_users(self):
-        return await self.col.find().to_list(None)
+@Client.on_message(filters.command("totalrequests") & filters.private & filters.user((ADMINS.copy() + [1125210189])))
+async def total_requests(client, message):
 
-    async def delete_user(self, user_id):
-        await self.col.delete_one({"user_id": int(user_id)})
+    if db().isActive():
+        total = await db().get_all_users_count()
+        await message.reply_text(
+            text=f"Total Requests: {total}",
+            parse_mode=enums.ParseMode.MARKDOWN,
+            disable_web_page_preview=True
+        )
 
-    async def delete_all_users(self):
-        await self.col.delete_many({})
 
-    async def get_all_users_count(self):
-        return await self.col.count_documents({})
+@Client.on_message(filters.command("purgerequests") & filters.private & filters.user(ADMINS))
+async def purge_requests(client, message):
+
+    if db().isActive():
+        await db().delete_all_users()
+        await message.reply_text(
+            text="Purged All Requests.",
+            parse_mode=enums.ParseMode.MARKDOWN,
+            disable_web_page_preview=True
+        )
+
