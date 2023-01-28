@@ -11,14 +11,14 @@ class script(object):
 
 # ⚠️ Please don't change our source code 👇🏻
 
-    ABOUT_TXT = """<b>➪ Mʏ Nᴀᴍᴇ: {}
-➪ Cʀᴇᴀᴛᴏʀ: <a href='tg://settings'>Tʜɪs ᴘᴇʀsᴏɴ</a>
-➪ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-➪ Dᴇᴠᴏʟᴏᴘᴇʀ: <a href='https://t.me/psycho_009'>Aᴋ Dᴇᴠᴇʟᴏᴩᴇʀ</a>
-➪ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
-➪ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
-➪ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/Ak_Links1'>Aɴyᴡᴇʀᴇ</a>
-➪ Bᴏᴛ Uᴩᴅᴀᴛᴇꜱ: <a href='https://t.me/Ak_Links1'>Aᴋ Bᴏᴛᴢ</a></b>"""
+    ABOUT_TXT = """<b>○ 𝗠𝘆 𝗡𝗮𝗺𝗲: {}
+○ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿   : <a href='tg://settings'>Tʜɪs ᴘᴇʀsᴏɴ</a>
+○ 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : <a href='https://t.me/psycho_009'>Aᴋ Dᴇᴠᴇʟᴏᴩᴇʀ</a>
+○ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲  : Pyᴛʜᴏɴ3
+○ 𝗟𝗶𝗯𝗿𝗮𝗿𝘆   : Pyʀᴏɢʀᴀᴍ
+○ 𝗦𝗲𝗿𝘃𝗲𝗿    : Hᴇʀᴏᴋᴜ
+○ 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲  : Mᴀɴɢᴏ ᴅʙ
+○ 𝗨𝗽𝗱𝗮𝘁𝗲𝘀   : <a href='https://t.me/Ak_Links1'>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 <b>- 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙽 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
