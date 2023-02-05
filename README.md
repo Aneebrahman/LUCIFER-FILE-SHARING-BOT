@@ -139,7 +139,7 @@ python3 bot.py
 * /setskip - used in index where indexing a specific number
 * /font - fonts for your text
 ```
-<b> 😇CREATOR » [AFSAL](https://t.me/psycho_009)</b>
+<b> 😇CREATOR » [AK TG](https://t.me/psycho_009)</b>
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=CrazyDeveloperTG&theme=highcontrast" align="center">
