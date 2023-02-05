@@ -1,13 +1,13 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Doctor-Strange!;Created+by+𝐂𝐫𝐚𝐳𝐲𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫ᠰ𝐓𝐆!;A+simple+and+powerful+Bot!;Indexes+Files+above+2GB;A+Bot+with+double+button!;Start+message+with+pic!;And+more+features!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Lucifer!;Created+by+𝐀𝐤 ᠰ 𝐓𝐠 O𝐅𝐅𝐥𝐢𝐧𝐞!;A+simple+and+powerful+Bot!;Indexes+Files+above+2GB;A+Bot+with+double+button!;Start+message+with+pic!;And+more+features!)
 </p>
 <p align="center">
-  <img src="https://telegra.ph/file/8f6deb9d7fa796289a19b.jpg" alt="Strange">
+  <img src="https://graph.org/file/e5336724c085330427f8b.jpg" alt="Lucifer">
 </p>
 <h1 align="center">
-  <b>Doctor-Strange</b>
+  <b>Lucifer</b>
 </h1>
 
-<a href="https://t.me/czdbotz_support">
+<a href="https://t.me/Ak_moviesgroupmoviesgroup">
   <img src="https://img.shields.io/badge/Join-blue?logo=telegram" width="70">
 
 [![Stars](https://img.shields.io/github/stars/CrazyDeveloperTG/Doctor-Strange?style=flat-square&color=yellow)](https://github.com/CrazyDeveloperTG/Doctor-Strange/stargazers)
@@ -139,7 +139,7 @@ python3 bot.py
 * /setskip - used in index where indexing a specific number
 * /font - fonts for your text
 ```
-<b> 😇CREATOR » [AFSAL](https://t.me/AFxSU)</b>
+<b> 😇CREATOR » [AFSAL](https://t.me/psycho_009)</b>
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=CrazyDeveloperTG&theme=highcontrast" align="center">
