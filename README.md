@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Lucifer!;Created+by+𝐀𝐤 ᠰ 𝐓𝐠 O𝐅𝐅𝐥𝐢𝐧𝐞! ;A+simple+and+powerful+Bot!;Indexes+Files+above+2GB;A+Bot+with+double+button!;Start+message+with+pic!;And+more+features!)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=100&size=500&pause=1000&width=10000&height=1000&lines=Welcome+To+Lucifer+;Created+by+Ak%E1%A0%B0+%F0%9D%90%93%F0%9D%90%A0+O%F0%9D%90%85%F0%9D%90%85%F0%9D%90%A5%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9E!;A+Simple+and+powerful+Bot;Indexes+Files+above+2GB;A+Bot+with+double+button;And+more+features)](https://git.io/typing-svg)
 </p>
 <p align="center">
   <img src="https://graph.org/file/e5336724c085330427f8b.jpg" alt="Lucifer">
