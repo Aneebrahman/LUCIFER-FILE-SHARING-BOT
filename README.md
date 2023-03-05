@@ -83,7 +83,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <br>
 <p>
-<a href="https://heroku.com/deploy?template=https://github.com/CrazyDeveloperTG/Doctor-Strange">
+<a href="https://heroku.com/deploy?template=https://github.com/Aneebrahman/LUCIFER-FILE-SHARING-BOT">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p></details>
