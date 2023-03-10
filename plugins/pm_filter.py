@@ -154,7 +154,7 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(' ⭕️ 𝐆𝐫𝐨𝐮𝐩𝐬 ⭕️ ', url='https://t.me/Ak_Links1')
+            InlineKeyboardButton(f' ♻️ {search} ♻️ ', 'qinfo')
         ]
     )
     btn.insert(1, 
@@ -1106,7 +1106,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(' ⭕️ 𝐆𝐫𝐨𝐮𝐩𝐬 ⭕️ ', url='https://t.me/Ak_Links1')
+            InlineKeyboardButton(f' ♻️ {search} ♻️ ', 'qinfo')
         ]
     )
     btn.insert(1, 
