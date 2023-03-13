@@ -750,7 +750,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "manuelfilter":
         buttons = [[
-            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help2'),
             InlineKeyboardButton('Bᴜᴛᴛᴏɴꜱ', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -771,7 +771,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "autofilter":
         buttons = [[
-            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help2')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -781,7 +781,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "coct":
         buttons = [[
-            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help2')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -791,7 +791,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='help2'),
             InlineKeyboardButton('Aᴅᴍɪɴ', callback_data='admin')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
