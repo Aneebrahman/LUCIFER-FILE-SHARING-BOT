@@ -44,15 +44,15 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('× Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
+            ],[
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('⌬ Gʀᴏᴜᴩ ⌬', url='https://t.me/+X90aS7BxYqI3ZWQ1')
-        ], [
-            InlineKeyboardButton('〄 Hᴇʟᴩ 〄', callback_data='help'),
+            InlineKeyboardButton('⌬ owner ⌬', callback_data='seenowner')
+            ],[
+            InlineKeyboardButton('〄 Hᴇʟᴩ 〄', callback_data='help2'),
             InlineKeyboardButton('〄 Aʙᴏᴜᴛ 〄', callback_data='about')
-         ],[
-            InlineKeyboardButton('⌬ Uᴩᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ⌬', url='https://t.me/movies_channel001')
-        ]]
+            ],[
+            InlineKeyboardButton('⌬ Uᴩᴅᴀᴛᴇꜱ ⌬', callback_data='seenupdate')
+          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEG4mJjoA1ylosRblUY1GtYjv7KmzQm9AAC-AMAAp9EiVed3ajGmwsl5iwE") 
         await asyncio.sleep(1)
@@ -78,15 +78,15 @@ async def start(client, message):
             return
         buttons = [[
             InlineKeyboardButton('× Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
+            ],[
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('⌬ Gʀᴏᴜᴩ ⌬', url='https://t.me/+X90aS7BxYqI3ZWQ1')
-        ], [
-            InlineKeyboardButton('〄 Hᴇʟᴩ 〄', callback_data='help'),
+            InlineKeyboardButton('⌬ owner ⌬', callback_data='seenowner')
+            ],[
+            InlineKeyboardButton('〄 Hᴇʟᴩ 〄', callback_data='help2'),
             InlineKeyboardButton('〄 Aʙᴏᴜᴛ 〄', callback_data='about')
-         ],[
-            InlineKeyboardButton('⌬ Uᴩᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ ⌬', url='https://t.me/movies_channel001')
-        ]]
+            ],[
+            InlineKeyboardButton('⌬ Uᴩᴅᴀᴛᴇꜱ ⌬', callback_data='seenupdate')
+          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
