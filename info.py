@@ -92,7 +92,7 @@ JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-1001636271003').split()]
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour request has been approved")
+TEXT = environ.get("APPROVED_WELCOME_TEXT", "Hᴇʟʟᴏ {mention}\nWᴇʟᴄᴏᴍᴇ Tᴏ {title}\n\nJᴏɪɴ Fᴏʀ Nᴇᴡ Mᴏᴠɪᴇꜱ @Ak_Links1")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
