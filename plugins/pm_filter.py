@@ -713,7 +713,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "seenowner":
         buttons = [[
             InlineKeyboardButton('«ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('OWNER', url='https://t.me/psycho_009')
+            InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ', url='https://t.me/psycho_009')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
