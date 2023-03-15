@@ -66,19 +66,18 @@ class script(object):
 <b>➪ /autofilter on - 𝙴𝙽𝙰𝙱𝙻𝙴 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝚃𝙷𝙴 𝙶𝚁𝙾𝚄𝙿𝚂.</b>
 <b>➪ /autofilter off - 𝙳𝙸𝚂𝙰𝙱𝙻𝙴𝙳 𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁 𝙸𝙽 𝚃𝙷𝙴 𝙶𝚁𝙾𝚄𝙿𝚂.</b>"""
 
-    CONNECTION_TXT = """Help: <b>Connections</b>
+    CONNECTION_TXT = """<b>⚙ 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻
+- ᴜsᴇᴅ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ʙᴏᴛ ᴛᴏ ᴘᴍ ꜰᴏʀ ᴍᴀɴᴀɢɪɴɢ ꜰɪʟᴛᴇʀs 
+- ɪᴛ ʜᴇʟᴘs ᴛᴏ ᴀᴠᴏɪᴅ sᴘᴀᴍᴍɪɴɢ ɪɴ ɢʀᴏᴜᴘs.
 
-- Used to connect bot to PM for managing filters 
-- it helps to avoid spamming in groups.
+𝐍𝐨𝐭𝐞 :
+1. ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴀᴅᴅ ᴀ ᴄᴏɴɴᴇᴄᴛɪᴏɴ.
+2. sᴇɴᴅ /connect ꜰᴏʀ ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴍᴇ ᴛᴏ ᴜʀ ᴘᴍ
 
-<b>NOTE:</b>
-1. Only admins can add a connection.
-2. Send <code>/connect</code> for connecting me to ur PM
-
-<b>Commands and Usage:</b>
-➪ /connect  - <code>connect a particular chat to your PM</code>
-➪ /disconnect  - <code>disconnect from a chat</code>
-➪ /connections - <code>list all your connections</code>"""
+𝐂𝐨𝐦𝐦𝐚𝐧𝐝 :
+➪ /connect  - ᴄᴏɴɴᴇᴄᴛ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ ᴛᴏ ʏᴏᴜʀ ᴘᴍ
+➪ /disconnect  - ᴅɪsᴄᴏɴɴᴇᴄᴛ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ
+➪ /connections - ʟɪsᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴs</b>"""
 
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
@@ -111,10 +110,10 @@ Aᴋ Bᴏᴛᴢ"""
 <code>/mp4 https://youtu.be/example...</code>
 <code>/video https://youtu.be/example...</code>"""
 
-    TTS_TXT = """Help: <b> TTS 🎤 module:</b>
-Translate text to speech
-<b>Commands and Usage:</b>
-➪ /tts <text> : convert text to speech"""
+    TTS_TXT = """<b>⚙ 𝗧𝘁𝘀 𝗠𝗼𝗱𝘂𝗹𝗲
+ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛ ᴛᴏ sᴘᴇᴇᴄʜ
+ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ᴜsᴀɢᴇ:
+➪ /tts  - ᴄᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ᴛᴏ sᴘᴇᴇᴄʜ</b>"""
 
     GTRANS_TXT = """➪ 𝐇𝐞𝐥𝐩: 𝖦𝗈𝗈𝗀𝗅𝖾 𝖳𝗋𝖺𝗇𝗌𝗅𝖺𝗍𝖾𝗋
 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚑𝚎𝚕𝚙𝚜 𝚢𝚘𝚞 𝚝𝚘 𝚝𝚛𝚊𝚗𝚜𝚕𝚊𝚝𝚎 𝚊 𝚝𝚎𝚡𝚝 𝚝𝚘 𝖺𝗇𝗒 𝚕𝚊𝚗𝚐𝚞𝚊𝚐𝚎𝚜 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝. 𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚠𝚘𝚛𝚔𝚜 𝚘𝚗 𝚋𝚘𝚝𝚑 𝚙𝚖 𝚊𝚗𝚍 𝚐𝚛𝚘𝚞𝚙 ✯
@@ -151,18 +150,18 @@ Do as you wish with telegra.ph module!
 
     DEPLOY_TXT= """𝙸𝙵 𝚈𝙾𝚄 𝙵𝙰𝙲𝙸𝙽𝙶 𝙰𝙽𝚈 𝙸𝚂𝚂𝚄𝙴 𝙸𝙽 𝚃𝙷𝙴 𝚁𝙴𝙿𝙾 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙼𝙴..."""
    
-    PINGS_TXT = """<b>Ping Testing:</b>
-Helps you to know your ping 🚶🏼‍♂️
-<b>Commands:</b>
-➪ /alive - To check you are alive.
-➪ /help - To get help.
+    PINGS_TXT = """<b>⚙𝗣𝗶𝗻𝗴 𝗧𝗲𝘀𝘁𝗶𝗻𝗴
 
-➪ /ping - <b>To get your ping.</b>
+ʜᴇʟᴘs ʏᴏᴜ ᴛᴏ ᴋɴᴏᴡ ʏᴏᴜʀ ᴘɪɴɢ 🚶🏼‍♂️
+𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 :
+➪ /alive - ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜ ᴀʀᴇ ᴀʟɪᴠᴇ.
+➪ /help - ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ.
+➪ /ping - ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴘɪɴɢ.
 
-<b>🛠️Usage🛠️ :</b>
-➪ This commands can be used in pm and groups
-➪ This commands can be used buy everyone in the groups and bots pm
-➪ Share us for more features"""
+𝐔𝐬𝐚𝐠𝐞 :
+➪ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ɪɴ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘs
+➪ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙᴜʏ ᴇᴠᴇʀʏᴏɴᴇ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘs ᴀɴᴅ ʙᴏᴛs ᴘᴍ
+➪ sʜᴀʀᴇ ᴜs ꜰᴏʀ ᴍᴏʀᴇ ꜰᴇᴀᴛᴜʀᴇs</b>"""
  
     STICKER_TXT = """<b>𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙼𝙾𝙳𝚄𝙻𝙴 𝚃𝙾 𝙵𝙸𝙽𝙳 𝙰𝙽𝚈 𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝚂 𝙸𝙳.</b>
 ➪ 𝐔𝐒𝐀𝐆𝐄
@@ -180,19 +179,19 @@ To Get Sticker ID
         <b> Eg:- /font Hello</b>
 
  <i>This feature added by @AK 𝙱𝙾𝚃𝚉"""
-    JSON_TXT = """<b>JSON:</b>
-Bot returns json for all replied messages with /json or /js
-<b>Features:</b>
-Message Editting JSON
-Pm Support
-Group Support
-<b>Note:</b>
-<b>Everyone can use this command , if spaming happens bot will automatically ban you from the group.</b>"""
+    JSON_TXT = """<b>⚙️ 𝗝𝘀𝗼𝗻
+ʙᴏᴛ ʀᴇᴛᴜʀɴs ᴊsᴏɴ ꜰᴏʀ ᴀʟʟ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇs ᴡɪᴛʜ /json ᴏʀ /js
+ꜰᴇᴀᴛᴜʀᴇs:
+ᴍᴇssᴀɢᴇ ᴇᴅɪᴛᴛɪɴɢ ᴊsᴏɴ
+ᴘᴍ sᴜᴘᴘᴏʀᴛ
+ɢʀᴏᴜᴘ sᴜᴘᴘᴏʀᴛ
+𝐍𝐨𝐭𝐞 :
+ᴇᴠᴇʀʏᴏɴᴇ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ , ɪꜰ sᴘᴀᴍɪɴɢ ʜᴀᴘᴘᴇɴs ʙᴏᴛ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ʙᴀɴ ʏᴏᴜ ꜰʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ.</b>"""
 
-    WHOIS_TXT ="""<b>WHOIS MODULE</b>
-Note:- <b>Give a user details</b>
+    WHOIS_TXT ="""<b>⚙ 𝗪𝗵𝗼𝗶𝘀 𝗠𝗼𝗱𝘂𝗹𝗲
+𝐍𝐨𝐭𝐞 :- ɢɪᴠᴇ ᴀ ᴜsᴇʀ ᴅᴇᴛᴀɪʟs
 
-➪/whois :-give a user full details 📑"""
+➪/whois :-ɢɪᴠᴇ ᴀ ᴜsᴇʀ ꜰᴜʟʟ ᴅᴇᴛᴀɪʟs 📑</b>"""
 
     URLSHORT_TXT = """➪ 𝐇𝐞𝐥𝐩: 𝖴𝗋𝗅 𝗌𝗁𝗈𝗋𝗍𝗇𝖾𝗋
 <i><b>𝚃𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚑𝚎𝚕𝚙𝚜 𝚢𝚘𝚞 𝚝𝚘 𝚜𝚑𝚘𝚛𝚝 𝚊 𝚞𝚛𝚕 </i></b>
@@ -358,14 +357,15 @@ Name - {}
     
     REPRT_MSG = """ Reported To Admin"""
     
-    ZOMBIES_TXT = """𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙺𝙸𝙲𝙺 𝚄𝚂𝙴𝚁𝚂
-<b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
-<b>Commands and Usage:</b>
-• /inkick - command with required arguments and i will kick members from group.
-• /instatus - to check current status of chat member from group.
-• /inkick within_month long_time_ago - to kick users who are offline for more than 6-7 days.
-• /inkick long_time_ago - to kick members who are offline for more than a month and Deleted Accounts.
-• /dkick - to kick deleted accounts."""
+    ZOMBIES_TXT = """<b>⚙ 𝗞𝗶𝗰𝗸 𝗺𝗼𝗱𝘂𝗹𝗲
+𝐍𝐨𝐭𝐞 : ᴋɪᴄᴋ ɪɴᴄᴀᴛɪᴠᴇ ᴍᴇᴍʙᴇʀs ꜰʀᴏᴍ ɢʀᴏᴜᴘ. ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴡɪᴛʜ ʙᴀɴ ᴜsᴇʀs ᴘᴇʀᴍɪssɪᴏɴ ɪɴ ɢʀᴏᴜᴘ.
+
+𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 :
+• /inkick - ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ʀᴇǫᴜɪʀᴇᴅ ᴀʀɢᴜᴍᴇɴᴛs ᴀɴᴅ ɪ ᴡɪʟʟ ᴋɪᴄᴋ ᴍᴇᴍʙᴇʀs ꜰʀᴏᴍ ɢʀᴏᴜᴘ.
+• /instatus - ᴛᴏ ᴄʜᴇᴄᴋ ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛᴜs ᴏꜰ ᴄʜᴀᴛ ᴍᴇᴍʙᴇʀ ꜰʀᴏᴍ ɢʀᴏᴜᴘ.
+• /inkick ᴡɪᴛʜɪɴ_ᴍᴏɴᴛʜ ʟᴏɴɢ_ᴛɪᴍᴇ_ᴀɢᴏ - ᴛᴏ ᴋɪᴄᴋ ᴜsᴇʀs ᴡʜᴏ ᴀʀᴇ ᴏꜰꜰʟɪɴᴇ ꜰᴏʀ ᴍᴏʀᴇ ᴛʜᴀɴ 6-7 ᴅᴀʏs.
+• /inkick ʟᴏɴɢ_ᴛɪᴍᴇ_ᴀɢᴏ - ᴛᴏ ᴋɪᴄᴋ ᴍᴇᴍʙᴇʀs ᴡʜᴏ ᴀʀᴇ ᴏꜰꜰʟɪɴᴇ ꜰᴏʀ ᴍᴏʀᴇ ᴛʜᴀɴ ᴀ ᴍᴏɴᴛʜ ᴀɴᴅ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs.
+• /dkick - ᴛᴏ ᴋɪᴄᴋ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs.</b>"""
     
     PIN_TXT ="""<b>PIN MODULE</b>
 <b>𝙿𝙸𝙽 𝙰 𝙼𝙴𝚂𝚂𝙰𝙶𝙴../</b>
