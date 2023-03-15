@@ -100,7 +100,7 @@ these are the extra features of Elsa
 ⏭️ /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
 
 <b>𝚆𝙾𝚁𝙺𝚂 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>
-@Ak_moviesgroup"""
+Aᴋ Bᴏᴛᴢ"""
 
     VIDEO_TXT ="""𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
 ➪ 𝘜𝘴𝘢𝘨𝘦
@@ -236,7 +236,8 @@ This module only works for my admins
 ➪ /deletefiles - <code>to delete cam-rip and pre-dvd from the bot's database</code>
 ➪ /setskip - <code>skip no of files before indexing</code>"""
     
-    STATUS_TXT = """<b>📂 Tᴏᴛᴀʟ Fɪʟᴇꜱ: <code>{}</code>
+    STATUS_TXT = """<b>── • ❰ ♻️ Bot DB Status ♻️ ❱ • ──
+📂 Tᴏᴛᴀʟ Fɪʟᴇꜱ: <code>{}</code>
 👤 Tᴏᴛᴀʟ Uꜱᴇʀꜱ: <code>{}</code>
 ♻️ Tᴏᴛᴀʟ Gʀᴏᴜᴩꜱ: <code>{}</code>
 🗃️ Uꜱᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
