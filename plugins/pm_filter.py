@@ -154,7 +154,7 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' ♻️ {search} ♻️ ', 'qinfo')
+            InlineKeyboardButton(f' ♻️ {search} ♻️ ', callback_data=f"select_lang#{req}")
         ]
     )
     btn.insert(1, 
@@ -1158,7 +1158,7 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' ♻️ {search} ♻️ ', 'qinfo')
+            InlineKeyboardButton(f' ♻️ {search} ♻️ ', callback_data=f"select_lang#{message.from_user.id}")
         ]
     )
     btn.insert(1, 
