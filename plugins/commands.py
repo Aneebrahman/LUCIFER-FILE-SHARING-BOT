@@ -62,8 +62,14 @@ async def start(client, message):
             caption=script.SUR_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )
-        return
+               ) 
+         return 
+     if AUTH_CHANNEL and not await is_subscribed(client, message): 
+         try: 
+             invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL)) 
+         except ChatAdminRequired: 
+             logger.error("Make sure Bot is admin in Forcesub channel") 
+             return
 
     kk, file_id = message.command[1].split("_", 1) if "_" in message.command[1] else (False, False)
     pre = ('checksubp' if kk == 'filep' else 'checksub') if kk else False
